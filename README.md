@@ -7,7 +7,11 @@ Tokenization is the process of splitting text into smaller units, like words or 
 The WordPunctTokenizer splits text based on spaces and punctuation. It treats punctuation as separate tokens, which makes it useful for breaking down complex sentences.
 
 For example:
+
+
 Input: "Hello, world!"
+
+
 Output: ["Hello", ",", "world", "!"]
 ## TreebankWordTokenizer:
 The TreebankWordTokenizer is designed based on the Penn Treebank standard. It handles punctuation and contractions better, splitting text into linguistically meaningful tokens. 
