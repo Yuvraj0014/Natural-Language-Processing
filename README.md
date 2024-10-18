@@ -24,7 +24,8 @@ Input: "I can't do this."
 
 
 Output: ["I", "ca", "n't", "do", "this", "."]
-## Both are widely used in natural language processing tasks to preprocess text for further analysis.
+## Summary 
+Both are widely used in natural language processing tasks to preprocess text for further analysis.
 
 ## 2 Stemming:
 Stemming is a text normalization technique in Natural Language Processing (NLP) that reduces words to their root form by removing suffixes and prefixes. It standardizes different morphological variations of a word, like running and ran to run. This helps reduce the dimensionality of the text data. Common stemming algorithms include Porter, Snowball, and Lancaster. While it's faster than lemmatization, it can sometimes lead to inaccuracies by over-stemming or under-stemming words.
@@ -38,5 +39,6 @@ A Regular Expression (Regex) Stemmer is a simple rule-based stemming approach th
 ## Snowball stemmer
 The Snowball Stemmer, also known as the Porter2 Stemmer, is an improved and more efficient version of the Porter Stemmer. Developed by Martin Porter, it offers better accuracy and support for multiple languages beyond English. It uses a refined set of rules to handle word variations while minimizing over-stemming and under-stemming. The Snowball Stemmer is widely used in text processing tasks like information retrieval and natural language understanding. It strikes a balance between efficiency and precision across languages.
 
+## Summary 
 The Porter Stemmer, Regular Expression (Regex) Stemmer, and Snowball Stemmer differ in their approach to stemming. The Porter Stemmer is a rule-based, efficient algorithm primarily for English, while the Regex Stemmer uses customizable pattern-matching rules, offering flexibility but requiring manual tuning. The Snowball Stemmer (Porter2) improves on the Porter Stemmer, providing better accuracy and support for multiple languages. For most NLP tasks, the Snowball Stemmer is the preferred choice due to its balance of performance and precision, especially in multilingual settings.
 
