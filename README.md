@@ -44,3 +44,7 @@ The Porter Stemmer, Regular Expression (Regex) Stemmer, and Snowball Stemmer dif
 
 ## 3 Lemmatization:
 Lemmatization is a process in Natural Language Processing (NLP) that reduces words to their base or root form, called a lemma. It differs from stemming by producing proper dictionary words rather than simply cutting off word endings. Lemmatization considers context and part-of-speech (POS) information, making it more accurate. For example, "running" is lemmatized to "run," and "better" to "good." This technique is useful in text preprocessing for tasks like sentiment analysis, search engines, and text classification. It helps reduce vocabulary size by grouping variations of a word together. Tools like NLTK and spaCy facilitate easy lemmatization in Python.
+
+## 4 Stop Words:
+In NLP, stop words are common words like "the," "is," and "and" that are often removed during text preprocessing because they add little value to tasks like text classification. Removing them helps reduce data size and speeds up processing. However, for some tasks like sentiment analysis, certain stop words (e.g., "not") might be important and should be retained. Libraries like NLTK and spaCy offer predefined lists of stop words that can be customized based on the specific use case.
+
