@@ -63,3 +63,12 @@ Part-of-Speech (POS) tagging is an NLP process that assigns a grammatical catego
 4. Question-Answering Systems: Assists in generating grammatically correct and meaningful responses.
 5. Sentiment Analysis: Helps in identifying the emotional tone based on word functions like adjectives or verbs.
 
+## Named Entity Recognition (NER):
+Named Entity Recognition (NER) is an NLP task that identifies and classifies named entities like people, organizations, locations, dates, and more within a text. It assigns labels to entities, such as recognizing "New York" as a location or "Google" as an organization. NER helps extract structured information from unstructured text. It is widely used in applications like information retrieval, search engines, and automated summarization. Popular NLP libraries like spaCy and NLTK provide tools to implement NER models.
+## Importance of Named Entity Recognition (NER):
+1. Information Extraction: NER helps extract important entities (e.g., names, locations, dates) from large text data, making it easier to summarize and analyze.
+2. Improves Search Accuracy: In search engines, NER allows for better query understanding by identifying relevant entities in the text.
+3. Text Summarization: By identifying key entities, NER contributes to creating concise summaries of large documents.
+4. Question-Answering Systems: It helps provide more accurate answers by identifying entities in both the question and relevant documents.
+5. Data Organization: NER helps organize and structure unstructured data, allowing for better database management and retrieval.
+6. Sentiment Analysis: It aids in determining the sentiment toward specific entities like people, brands, or products in texts like reviews or social media.
