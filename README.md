@@ -48,3 +48,8 @@ Lemmatization is a process in Natural Language Processing (NLP) that reduces wor
 ## 4 Stop Words:
 In NLP, stop words are common words like "the," "is," and "and" that are often removed during text preprocessing because they add little value to tasks like text classification. Removing them helps reduce data size and speeds up processing. However, for some tasks like sentiment analysis, certain stop words (e.g., "not") might be important and should be retained. Libraries like NLTK and spaCy offer predefined lists of stop words that can be customized based on the specific use case.
 
+## 5 Part-of-Speech tagging:
+Part-of-Speech (POS) tagging is an NLP process that assigns a grammatical category to each word in a sentence, such as noun, verb, adjective, etc. It helps to determine the syntactic role of words based on their context. By labeling words with their POS tags, the structure and meaning of a sentence can be better understood. POS tagging is essential for various NLP tasks, including parsing, machine translation, and sentiment analysis. Libraries like NLTK and spaCy provide tools for implementing POS tagging.
+## Importance of POS tagging:
+
+
